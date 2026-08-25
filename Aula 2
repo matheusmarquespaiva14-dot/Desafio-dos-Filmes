@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> Hello word </p>
+    <h1> Desafio das Imagens - Cidade Natal</h1>
+    <h2> Espirito Santo - Cariacica </h2>
+    <img src="Cariacica.jpeg" alt="Cidade Natal - Cariacica">
+
+    <br>
+
+    <picture>
+        <img src="Cariacica2.jpg" alt="Cidade Natal - Cariacica" width="300">
+        <figcaption> Cariacica e a melhor cidade!!! </figcaption>
+    </picture>
+ 
+    <br>
+    
+    <picture> 
+        <source media="(max-width: 500px)" srcset="ImagemP.jpg">
+        <img src="imagemP.jpg" alt="Cidade de Cariacica" width="500">
+    </picture>
+</body>
+</html>
